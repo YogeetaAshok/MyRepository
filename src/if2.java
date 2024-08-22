@@ -17,6 +17,9 @@ public class if2 {
 		WebElement myText = driver.findElement(By.xpath("//strong[text()=' Learn Earn & Shine']"));
 		String result=myText.getText();
 		System.out.println(result);
+		
+		// this is newly added 
+		// pull it and tell me if it is working or not
 	}
 
 }
